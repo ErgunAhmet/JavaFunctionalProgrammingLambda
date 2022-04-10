@@ -46,8 +46,8 @@ public class Main {
 //        Collections.sort(personList, (Person person1, Person person2) ->
 //                person1.getName().compareTo(person2.getName()));
 
-        Collections.sort(personList, (person1, person2) ->
-                person1.getName().compareTo(person2.getName()));
+        Collections.sort(personList, (p1, p2) ->
+                p1.getName().compareTo(p2.getName()));
 
 //        for (Person person: personList) {
 //            System.out.println(person.getName());
